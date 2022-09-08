@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <style>
+        body {
+            background: linear-gradient(to right, blue, pink);
+        }
+
+        .default {
+            color: white;
+            border-radius: 3px;
+            border: 1px solid rgb(108, 108, 166);
+            margin-top: 2px;
+            background: rgba(0, 0, 0, 0.352);
+        }
+
+        p {
+            margin-left: 4px;
+            cursor: pointer;
+        }
+
+        .selected {
+            color: rgb(9, 230, 156);
+        }
+
+        .isHidden {
+            display: none;
+        }
+
+       
+
+    </style>
+</head>
+
+<body>
+    <h1>Type text</h1>
+    <div>
+        <input type="text" class="default" autofocus id="input" />
+
+        <div class="default, isHidden" id="list">
+            <p></p>
+            <p></p>
+            <p></p>
+        </div>
+
+
+    </div>
+    
+
+    <script src="./Content.js"></script>
+</body>
+
+</html>
